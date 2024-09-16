@@ -1,99 +1,17 @@
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fff4e6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #ffd700;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
-}
-
-.menu-icons button {
-    background: none;
-    border: none;
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
-}
-
-.investment-section {
-    background-color: #f36c6c;
+.mining-power {
     text-align: center;
-    padding: 20px;
-    color: white;
-    margin-top: 10px;
+    margin: 20px;
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 15px;
+    border-radius: 10px;
 }
 
-.investment-section h1 {
-    font-size: 24px;
+.mining-power h2 {
+    color: #333; /* Darker text color */
 }
 
-.investment-section p {
-    margin: 5px 0;
-}
-
-.balance-section {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    margin: 20px auto;
-    width: 90%;
-}
-
-.balance-section h2 {
-    font-size: 20px;
-}
-
-.balance {
-    font-size: 28px;
+.mining-power p {
+    font-size: 1.2em;
     font-weight: bold;
-    margin: 10px 0;
+    color: #f54242; /* Use the same color as buttons */
 }
-
-.action-buttons button {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #ff6666;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #ffe6cc;
-}
-
-.menu-btn {
-    background: none;
-    border: none;
-}
-
-.profile-picture img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  }
